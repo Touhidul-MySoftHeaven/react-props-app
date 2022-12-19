@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Student from './student/Student';
+import StudentUseState from './student/StudentUseState';
+import StudentStateClassComponent from './student/classComponents/StudentStateClassComponent';
 
 function App() {
   return (
@@ -18,7 +21,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <Student />
+      <StudentUseState />
+      <StudentStateClassComponent />
+
     </div>
+    
   );
 }
 
