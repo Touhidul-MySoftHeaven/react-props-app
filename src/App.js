@@ -3,6 +3,8 @@ import './App.css';
 import Student from './student/Student';
 import StudentUseState from './student/StudentUseState';
 import StudentStateClassComponent from './student/classComponents/StudentStateClassComponent';
+import StudentStateClassCountComponent from './student/classComponents/StudentStateClassCountComponent';
+
 
 function App() {
   return (
@@ -24,7 +26,7 @@ function App() {
       <Student />
       <StudentUseState />
       <StudentStateClassComponent />
-
+      <StudentStateClassCountComponent />
     </div>
     
   );
